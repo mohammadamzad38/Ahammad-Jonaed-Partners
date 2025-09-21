@@ -1,103 +1,54 @@
 import Image from "next/image";
+import Practice from "./components/Practice"
+
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <div >
+      <section className="space-y-6">
+        <div className="max-w-[1252px] mx-auto">
+          <video
+            className="rounded-xl shadow-lg w-full"
+            width="1252"
+            height="500"
+            autoPlay
+            muted
+            loop
+            playsInline
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            <source src="/images/cover-video.mp4" type="video/mp4" />
+          </video>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+       <div className="container p-6">
+         <p className="theFont text-[#171742] text-5xl">
+          At Ahammad, Jonaed & Partners, we help clients manage risk and capitalize on opportunity with confidence.
+        </p>
+        <p className="theFont text-2xl ">
+          More than legal experience, we are a strategic partner in both the regulatory spectrum and the litigation arena.
+        </p>
+       </div>
+      </section>
+
+      <div className="container flex flex-row justify-center items-center gap-10 mt-25">
+        <div className="relative w-[470px] h-[548px] rounded-2xl shadow-xl">
+          <Image src={"/images/story-picture.png"} fill alt="Story Image" className="p-4 rounded-2xl bg-white"/>
+        </div>
+        <div className="w-3/5 space-y-16 mx-4">
+          <div className="space-y-4">
+            <p className="text-2xl text-[#171742] font-bold mb-4">Our Story</p>
+            <p>We evolve with the dynamic legal sector in Bangladesh. Ahammad, Jonaed & Partners was formed in April 2012, when Ahammad, Ahammad & Associates joined forces with Iftekhar Jonaed & Associates. The firm brings together a panel of highly-qualified, multi-jurisdictional lawyers with almost two decades at legal background. Our team collectively holds more experience in transactional and corporate matters, as well as litigation, than most major law firms in Dhaka, Bangladesh.</p>
+          </div>
+          <div>
+            <p className="text-2xl text-[#171742] font-bold mb-4">Our Philosophy and Commitments</p>
+            <p>Our philosophy is simple: <br /> <span className="text-[#C1A246]">the client must always be satisfied</span>. We believe this is our framework for success. We take pride in our commitment to excellence and our ever-evolving approach to client care. At Ahammad, Jonaed & Partners, our clients are the strategic partner, not just a file number.</p>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <p className="text-6xl theFont text-[#C1A246]">Practice Areas</p>
+        <p className="text-base">Ahammad, Jonaed & Partners is a full-service law firm that handles both contentious and non-contentious matters. They offer an extensive range of specialist legal services across various fields.</p>
+        <Practice />
+      </div>
     </div>
   );
 }
