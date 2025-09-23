@@ -1,6 +1,6 @@
 import { GrFormNextLink } from "react-icons/gr";
 
-export default function Btn({href}) {
+export default function Btn({href , className}) {
   return (
     <div className="inline-block">
       <a className="flex flex-row gap-3 rounded-xl text-white items-center px-8 py-2 bg-[#C1A246]" href={href}>

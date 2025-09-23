@@ -31,11 +31,11 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans);
+  font-family: "Poppins", sans-serif;
 }
 
 .theFont{
-  font-family: "fontCustom";
+  font-family:  "fontCustom";
 }
 
 .container{
