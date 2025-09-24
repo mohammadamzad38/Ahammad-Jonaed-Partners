@@ -3,7 +3,7 @@ import React from "react";
 export default function ContactUs() {
   return (
     <div className="flex gap-10 justify-center items-center mb-24">
-      <div>
+      <div className="space-y-12">
         <p className="text-6xl theFont text-[#C1A246]">Contact Us</p>
         <p className="text-3xl">Reach out for legal support!</p>
       </div>
@@ -51,7 +51,7 @@ export default function ContactUs() {
             placeholder="Message"
             className="bg-[#F3F3FA] border-[#EAE6ED] h-[130px] rounded-lg text-sm p-3 w-full "
           ></textarea>
-          <button className="text-base text-center w-full py-4  rounded-xl bg-[#C1A246]">
+          <button className="text-base font-semibold text-white text-center w-full py-4  rounded-xl bg-[#C1A246]">
             Send Message
           </button>
         </form>

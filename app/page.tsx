@@ -18,16 +18,17 @@ export default function Home() {
             muted
             loop
             playsInline
+            preload="auto"
           >
             <source src="/images/cover-video.mp4" type="video/mp4" />
           </video>
         </div>
         <div className="container py-6">
-          <p className="theFont text-[#171742] text-5xl">
+          <p className="theFont leading-[1.3] tracking-wide text-[#171742] text-5xl">
             At Ahammad, Jonaed & Partners, we help clients manage risk and
             capitalize on opportunity with confidence.
           </p>
-          <p className="theFont text-2xl ">
+          <p className="theFont tracking-wider mt-4 text-2xl ">
             More than legal experience, we are a strategic partner in both the
             regulatory spectrum and the litigation arena.
           </p>

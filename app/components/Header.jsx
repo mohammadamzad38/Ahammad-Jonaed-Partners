@@ -13,11 +13,13 @@ const navLinks = [
 
 export default function Header() {
   return (
-    <section>
+    <section className="sticky top-0 z-50 bg-[#E7E8E8]">
       <header className="max-w-6xl mx-auto flex flex-row justify-between items-center pt-[36px] pb-[12px] ">
-        <div className="relative h-[68px] w-[168px]">
-          <Image src={logoImg} fill alt="Logo" />
-        </div>
+        <Link href={"/"}>
+          <div className="relative h-[68px] w-[168px]">
+            <Image src={logoImg} fill alt="Logo" />
+          </div>
+        </Link>
         <div className="flex flex-row items-center gap-10">
           <nav className="flex flex-row gap-6">
             {navLinks.map((item, idx) => (
@@ -26,7 +28,10 @@ export default function Header() {
               </div>
             ))}
           </nav>
-          <a className="px-4 text-white py-3 bg-[#171742] rounded-xl" href="/contact-us">
+          <a
+            className="px-4 text-white py-3 bg-[#171742] rounded-xl"
+            href="/contact-us"
+          >
             Contact Us
           </a>
         </div>

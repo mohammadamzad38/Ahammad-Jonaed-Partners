@@ -44,7 +44,7 @@ export default function Footer() {
           >
             MRZ Tech
           </a>
-          <p>|  Copyright: © 2025. All Rights Reserved</p>
+          |<p> Copyright: © 2025. All Rights Reserved</p>
         </div>
       </footer>
     </div>
