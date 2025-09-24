@@ -35,8 +35,8 @@ export default function Home() {
         </div>
       </section>
 
-      <main className="container">
-        <div className=" flex flex-row justify-center items-center gap-10 my-27">
+      <main id="about" className="container">
+        <div  className=" flex flex-row justify-center items-center gap-10 my-27">
           <div className="relative w-[470px] h-[548px] rounded-2xl shadow-xl">
             <Image
               src={"/images/story-picture.png"}
@@ -78,7 +78,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="space-y-4">
+        <div id="practice" className="space-y-4">
           <p className="text-6xl text-center theFont text-[#C1A246]">
             Practice Areas
           </p>

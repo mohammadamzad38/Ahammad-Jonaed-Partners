@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const navLinks = [
   { category: "Home", url: "/" },
-  { category: "About Us", url: "about-us" },
-  { category: "Practice Areas", url: "practice-areas" },
-  { category: "Our Team", url: "our-team" },
-  { category: "Our Clients", url: "our-clients" },
-  { category: "Recent Publications", url: "recent-publications" },
+  { category: "About Us", url: "#about" },
+  { category: "Practice Areas", url: "#practice" },
+  { category: "Our Team", url: "#team" },
+  { category: "Our Clients", url: "#clients" },
+  { category: "Recent Publications", url: "#publications" },
 ];
 
 export default function Header() {
@@ -30,7 +30,7 @@ export default function Header() {
           </nav>
           <a
             className="px-4 text-white py-3 bg-[#171742] rounded-xl"
-            href="/contact-us"
+            href="#contact"
           >
             Contact Us
           </a>

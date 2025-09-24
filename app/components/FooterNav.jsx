@@ -1,11 +1,11 @@
 import Link from "next/link";
 
 const navLinks = [
-  { category: "About Us", url: "about-us" },
-  { category: "Practice Areas", url: "practice-areas" },
-  { category: "Our Team", url: "our-team" },
-  { category: "Our Clients", url: "our-clients" },
-  { category: "Contact Us", url: "contact-us" },
+  { category: "About Us", url: "#about" },
+  { category: "Practice Areas", url: "#practice" },
+  { category: "Our Team", url: "#team" },
+  { category: "Our Clients", url: "#clients" },
+  { category: "Contact Us", url: "#contact" },
   { category: "Terms & Conditions", url: "terms-and-conditions" },
 ];
 

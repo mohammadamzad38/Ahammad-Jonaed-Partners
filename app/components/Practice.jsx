@@ -5,7 +5,6 @@ import Btn from "./Btn";
 import { useState } from "react";
 import slugify from "./Slugify";
 
-
 export default function Practice() {
   const [showAll, setShowAll] = useState(false);
 
@@ -32,16 +31,34 @@ export default function Practice() {
             <Btn href={`/practice-area/${slugify(item.slug)}`} />
           </div>
         ))}
-      </div>
-
-      {/* Button below the grid */}
-      <div className="flex justify-center mt-6">
-        <button
-          onClick={() => setShowAll(!showAll)}
-          className="px-10 text-white bg-[#C1A246] py-4 rounded-lg"
+        <div
+          className={`flex justify-center ${
+            showAll
+              ? "hidden"
+              : "absolute w-full bottom-0 py-15 bg-gradient-to-b from-[#FFFFFF00] via-[#FFFFFFBF] to-[#FFFFFF]"
+          }`}
         >
-          {showAll ? "Show Less" : "Show More"}
-        </button>
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className=" px-10 cursor-pointer text-white bg-[#C1A246] py-2 rounded-lg"
+          >
+            Show More
+          </button>
+        </div>
+      </div>
+      <div>
+        {showAll ? (
+          <div className="flex justify-center mt-5">
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className="px-10 cursor-pointer text-white bg-[#C1A246] py-2 rounded-lg"
+            >
+              Show less
+            </button>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

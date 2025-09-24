@@ -21,7 +21,7 @@ export default function PublicationCard() {
   }, [emblaApi]);
 
   return (
-    <div className="my-27 place-items-center">
+    <div id="publications" className="my-27 place-items-center">
       <p className="text-6xl theFont text-[#C1A246]">Recent Publications</p>
       <div className=" w-full place-items-center">
         <div className="flex gap-2 mt-8">

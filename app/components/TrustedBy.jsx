@@ -69,7 +69,7 @@ const Trusted = [
 
 export default function TrustedBy() {
   return (
-    <div>
+    <div id="clients">
       <p className="text-6xl theFont text-center text-[#C1A246]">Trusted By</p>
       <p className="text-base text-center mx-15 pb-4 pt-8">
         We take pride in catering to all our clients on an individual level,

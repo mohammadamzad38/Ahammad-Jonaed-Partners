@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Team() {
   return (
-    <div className="container my-27">
+    <div id="team" className="container my-27">
       <p className="text-6xl theFont text-center text-[#C1A246]">Our Team</p>
       <p className="my-4 text-base text-center mx-15">
         Our firm is composed of a team of young, committed lawyers who are

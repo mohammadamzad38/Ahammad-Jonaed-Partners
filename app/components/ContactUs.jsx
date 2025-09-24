@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <div className="flex gap-10 justify-center items-center mb-24">
+    <div id="contact" className="flex gap-10 justify-center items-center mb-24">
       <div className="space-y-12">
         <p className="text-6xl theFont text-[#C1A246]">Contact Us</p>
         <p className="text-3xl">Reach out for legal support!</p>
