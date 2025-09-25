@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Publications from "../components/PublicationCard";
+import AuthPublication from "../components/AuthPublication";
 
 export default function SajedSamiAhammad() {
   return (
-    <div className="container">
-      <div className="flex gap-8">
-        <div className="relative w-[480px] mt-6 h-[480px]">
+    <div className="container ">
+      <div className="flex flex-col md:flex-row gap-8 items-center">
+        <div className="relative w-[358px] md:w-[480px] mt-6 h-[358px] md:h-[480px]">
           <Image
             src={"/images/jonaed-image.png"}
             alt="Iftekhar Jonaed"
@@ -13,12 +13,12 @@ export default function SajedSamiAhammad() {
             className="rounded-2xl"
           />
         </div>
-        <div className="w-[50%] mt-10">
-          <p className="text-5xl theFont mb-2 text-[#171742]">
+        <div className="w-full md:w-[50%] mt-10 px-4 md:px-0">
+          <p className="text-2xl md:text-5xl theFont mb-2 text-[#171742]">
             SAJED SAMI AHAMMAD
           </p>
           <p>no content</p>
-          <p className="text-2xl font-bold mb-2 mt-12">
+          <p className="text-base md:text-2xl font-bold mb-2 mt-6 md:mt-12">
             Professional Qualifications
           </p>
           <ul className="list-disc ml-5">
@@ -27,7 +27,7 @@ export default function SajedSamiAhammad() {
           </ul>
         </div>
       </div>
-      <Publications />
+      <AuthPublication />
     </div>
   );
 }

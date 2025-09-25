@@ -7,13 +7,15 @@ import FooterNav from "./FooterNav";
 
 export default function Footer() {
   return (
-    <div className=" bg-[#463A17]">
-      <footer className="flex flex-col justify-end items-end container pt-16">
-        <div className="flex justify-between">
-          <div className="relative w-[546px] h-[360px]">
-            <Image src={logo} fill alt="Logo" className="object-cover" />
-          </div>
-          <div className="w-2/5 text-white space-y-5">
+    <div className="bg-[#463A17]">
+      <footer className="flex flex-col justify-center md:justify-end items-center md:items-end container pt-16 px-4 px-0">
+        <div className="flex flex-col md:flex-row justify-center items-center md:justify-between">
+          <a href="/">
+            <div className="relative w-[358px] md:w-[546px] mb-10 md:mb-0 h-[236px] md:h-[360px]">
+              <Image src={logo} fill alt="Logo" className="object-cover" />
+            </div>
+          </a>
+          <div className="w-full md:w-2/5 text-center md:text-start text-white space-y-5">
             <p>
               <span className="font-bold">Law Offices:</span> B-1 (1st Floor),
               Plot#11/A-1, Road#41, Gulshan-2, Dhaka-1212, Bangladesh
@@ -35,16 +37,18 @@ export default function Footer() {
           </div>
         </div>
         <FooterNav />
-        <div className="flex gap-2 text-white my-5">
-          <p className="">Designed and Developed By</p>
-          <a
-            target="_blank"
-            href="https://mrztech.com"
-            className="text-[#B19540]"
-          >
-            MRZ Tech
-          </a>
-          |<p> Copyright: © 2025. All Rights Reserved</p>
+        <div className="flex flex-col md:flex-row gap-2 text-white my-5">
+          <div className="flex gap-2">
+            <p className="">Designed and Developed By</p>
+            <a
+              target="_blank"
+              href="https://mrztech.com"
+              className="text-[#B19540]"
+            >
+              MRZ Tech
+            </a>
+          </div>
+          <p> Copyright: © 2025. All Rights Reserved</p>
         </div>
       </footer>
     </div>

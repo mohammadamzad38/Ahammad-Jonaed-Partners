@@ -5,7 +5,7 @@ import Slugify from "./Slugify";
 export default function Associates() {
   return (
     <div>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-4 place-items-center gap-4">
         {associatesTeam.map((member, idx) => (
           <Link href={`/associates/${Slugify(member.slug)}`}>
             <div

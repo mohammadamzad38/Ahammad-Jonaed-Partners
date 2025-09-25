@@ -7,9 +7,9 @@ import Link from "next/link";
 
 export default function Team() {
   return (
-    <div id="team" className="container my-27">
-      <p className="text-6xl theFont text-center text-[#C1A246]">Our Team</p>
-      <p className="my-4 text-base text-center mx-15">
+    <div id="team" className="container my-10 md:my-27">
+      <p className="text-4xl md:text-6xl theFont text-center text-[#C1A246]">Our Team</p>
+      <p className="my-4 text-base text-center mx-0 md:mx-15">
         Our firm is composed of a team of young, committed lawyers who are
         passionate about delivering the absolute best to our clients. Our panel
         of multi-jurisdictional, highly-qualified, and skilled lawyers
@@ -17,11 +17,11 @@ export default function Team() {
         exemplary experience spanning a broad spectrum of the law, both
         nationally and internationally.
       </p>
-      <p className="theFont text-4xl text-center mb-4 mt-8">
+      <p className="theFont text-3xl md:text-4xl text-center mb-4 mt-8">
         Managing Partners
       </p>
       <div className="place-items-center">
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-col md:flex-row gap-4">
           <Link href={"/sajed-sami-ahammad"}>
             <div className="relative w-[300px] h-[420px]">
               <Image
@@ -77,7 +77,7 @@ export default function Team() {
           </Link>
         </div>
       </div>
-      <p className="theFont text-center text-4xl mb-4 mt-8">Associates</p>
+      <p className="theFont text-center text-3xl md:text-4xl mb-4 mt-8">Associates</p>
       <Associates />
     </div>
   );

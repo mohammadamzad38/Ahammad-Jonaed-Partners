@@ -70,8 +70,10 @@ const Trusted = [
 export default function TrustedBy() {
   return (
     <div id="clients">
-      <p className="text-6xl theFont text-center text-[#C1A246]">Trusted By</p>
-      <p className="text-base text-center mx-15 pb-4 pt-8">
+      <p className="text-4xl md:text-6xl theFont text-center text-[#C1A246]">
+        Trusted By
+      </p>
+      <p className="text-base text-center mx-0 md:mx-15 pb-4 pt-4 md:pt-8">
         We take pride in catering to all our clients on an individual level,
         providing our niche expertise, personal care, and a full spectrum of
         legal services. Our well-diversified clientele ranges from some of the
@@ -79,10 +81,10 @@ export default function TrustedBy() {
         the high-tech world, as well as top-end real estate developers,
         telecommunications operators, and more.
       </p>
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-2 md:grid-cols-4">
         {Trusted.map((items, idx) => (
           <div key={idx}>
-            <div className="relative w-full overflow-hidden h-[120px] border border-gray-100 bg-white flex items-center justify-center ">
+            <div className="relative w-full px-6 md:px-0 overflow-hidden h-[120px] border border-gray-100 bg-white flex items-center justify-center ">
               <Image
                 src={items.image}
                 alt="Trusted Partners Logo"

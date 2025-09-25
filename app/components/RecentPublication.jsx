@@ -21,19 +21,19 @@ export default function PublicationCard() {
   }, [emblaApi]);
 
   return (
-    <div id="publications" className="my-27 place-items-center">
-      <p className="text-6xl theFont text-[#C1A246]">Recent Publications</p>
-      <div className=" w-full place-items-center">
+    <div id="publications" className="my-12 md:my-27 place-items-center">
+      <p className="text-4xl md:text-6xl theFont text-[#C1A246]">Recent Publications</p>
+      <div className=" w-full place-items-end md:place-items-center">
         <div className="flex gap-2 mt-8">
           <button
             onClick={scrollPrev}
-            className="p-4 rounded-full bg-white hover:bg-[#171742] hover:text-white"
+            className="p-4 rounded-full bg-gray-400 hover:bg-[#171742] text-white"
           >
             <GrFormPreviousLink size={20} />
           </button>
           <button
             onClick={scrollNext}
-            className="p-4 rounded-full bg-white hover:bg-[#171742] hover:text-white"
+            className="p-4 rounded-full bg-gray-400 hover:bg-[#171742] text-white"
           >
             <GrFormNextLink size={20} />
           </button>
@@ -44,7 +44,7 @@ export default function PublicationCard() {
             {publications.map((published, idx) => (
               <div
                 key={idx}
-                className="flex-[0_0_28%] w-[340px] h-[412px] rounded-2xl mx-2 text-white shadow"
+                className="flex-[0_0_100%] md:flex-[0_0_28%] w-[340px] h-[412px] rounded-2xl mx-2 text-white shadow"
               >
                 <div className="relative w-full h-full">
                   <Image
@@ -60,7 +60,7 @@ export default function PublicationCard() {
                     </p>
                     <p className="theFont text-2xl mt-6">{published.title}</p>
                   </div>
-                  <div className="absolute bottom-2 left-2">
+                  <div className="absolute bottom-4 left-4">
                     <Btn href={`/publications/${Slugify(published.title)}`} />
                   </div>
                 </div>

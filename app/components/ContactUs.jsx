@@ -2,13 +2,13 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <div id="contact" className="flex gap-10 justify-center items-center mb-24">
-      <div className="space-y-12">
-        <p className="text-6xl theFont text-[#C1A246]">Contact Us</p>
-        <p className="text-3xl">Reach out for legal support!</p>
+    <div id="contact" className="flex flex-col md:flex-row gap-5 md:gap-10 justify-center items-center mb-12 md:mb-24">
+      <div className="space-y-4 md:space-y-12 text-center md:text-start">
+        <p className="text-4xl md:text-6xl theFont text-[#C1A246]">Contact Us</p>
+        <p className="text-2xl md:text-3xl">Reach out for legal support!</p>
       </div>
-      <div className="w-3/5 bg-white py-12 px-8 rounded-2xl">
-        <p className="text-3xl mt-12 text-center font-bold">
+      <div className="w-full md:w-3/5 bg-white py-4 md:py-12 px-8 rounded-2xl">
+        <p className="text-3xl mt-0 md:mt-12 text-center font-bold">
           Send us a Message
         </p>
         <form action="onSubmit" className="mt-6 space-y-4">

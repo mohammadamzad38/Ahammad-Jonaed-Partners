@@ -1,6 +1,6 @@
 import Image from "next/image";
 import practiceData from "../../Data/PracticeData.json";
-import PublicationCard from "../../components/PublicationCard";
+import PublicationCard from "../../components/RecentPublication";
 
 export default function page({ params }) {
   const { slug } = params;
@@ -10,8 +10,8 @@ export default function page({ params }) {
   if (!practiceItems) return <div>Not found</div>;
 
   return (
-    <div>
-      <div className="relative w-[1200px] h-[480px] mx-auto">
+    <div className="px-4 lg:px-0 mt-10">
+      <div className="relative w-[358px] md:w-[1200px]  h-[144px] md:h-[480px] mx-auto">
         <Image
           src={practiceItems.image}
           alt="Practice Images"
@@ -20,7 +20,7 @@ export default function page({ params }) {
         />
       </div>
       <div className="container my-4">
-        <h1 className="text-6xl theFont text-[#C1A246]">
+        <h1 className="text-2xl md:text-6xl theFont text-[#C1A246]">
           {practiceItems.title}
         </h1>
         <div

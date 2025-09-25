@@ -12,9 +12,9 @@ export default function Practice() {
 
   return (
     <div className="relative">
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {visibleCards.map((item, idx) => (
-          <div key={idx} className="bg-white shadow-sm rounded-lg p-8">
+          <div key={idx} className="bg-white shadow-sm rounded-lg p-6 md:p-8">
             <div className="relative flex justify-center items-center w-[60px] h-[60px] bg-[#C1A246] rounded-xl">
               <Image
                 src={item.icon}

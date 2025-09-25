@@ -2,13 +2,13 @@ import Image from "next/image";
 import Practice from "./components/Practice";
 import Team from "./components/Team";
 import TrustedBy from "./components/TrustedBy";
-import PublicationsCard from "./components/PublicationCard";
+import PublicationsCard from "./components/RecentPublication";
 import ContactUs from "./components/ContactUs";
 
 export default function Home() {
   return (
     <div>
-      <section className="space-y-6">
+      <section className="space-y-0 md:space-y-6 px-4 lg:px-0">
         <div className="max-w-[1200px] mx-auto ">
           <video
             className="rounded-xl shadow-lg w-full"
@@ -24,20 +24,20 @@ export default function Home() {
           </video>
         </div>
         <div className="container py-6">
-          <p className="theFont leading-[1.3] tracking-wide text-[#171742] text-5xl">
+          <p className="theFont leading-[1.3] tracking-wide text-[#171742] text-2xl md:text-5xl">
             At Ahammad, Jonaed & Partners, we help clients manage risk and
             capitalize on opportunity with confidence.
           </p>
-          <p className="theFont tracking-wider mt-4 text-2xl ">
+          <p className="theFont tracking-wider mt-4 text-base md:text-2xl ">
             More than legal experience, we are a strategic partner in both the
             regulatory spectrum and the litigation arena.
           </p>
         </div>
       </section>
 
-      <main id="about" className="container">
-        <div  className=" flex flex-row justify-center items-center gap-10 my-27">
-          <div className="relative w-[470px] h-[548px] rounded-2xl shadow-xl">
+      <main id="about" className="container px-4 lg:px-0">
+        <div  className=" flex flex-col md:flex-row justify-center items-center gap-10 my-4 md:my-27">
+          <div className="relative w-[357px] md:w-[470px] h-[496px] md:h-[548px] rounded-2xl shadow-xl">
             <Image
               src={"/images/story-picture.png"}
               fill
@@ -45,7 +45,7 @@ export default function Home() {
               className="p-4 rounded-2xl bg-white"
             />
           </div>
-          <div className="w-3/5 space-y-16 mx-4">
+          <div className="w-full md:w-3/5 space-y-4 md:space-y-16 mx-0 md:mx-4">
             <div className="space-y-4">
               <p className="text-2xl text-[#171742] font-bold mb-4">
                 Our Story
@@ -79,10 +79,10 @@ export default function Home() {
           </div>
         </div>
         <div id="practice" className="space-y-4">
-          <p className="text-6xl text-center theFont text-[#C1A246]">
+          <p className="text-4xl md:text-6xl text-center mt-10 md:mt-0 theFont text-[#C1A246]">
             Practice Areas
           </p>
-          <p className="text-base text-center">
+          <p className="hidden md:block text-base text-center">
             Ahammad, Jonaed & Partners is a full-service law firm that handles
             both contentious and non-contentious <br /> matters. They offer an
             extensive range of specialist legal services across various fields.
