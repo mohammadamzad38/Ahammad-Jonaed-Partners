@@ -46,7 +46,7 @@ export default function PublicationCard() {
                 key={idx}
                 className="flex-[0_0_100%] md:flex-[0_0_28%] w-[340px] h-[412px] rounded-2xl mx-2 text-white shadow"
               >
-                <div className="relative w-full h-full">
+                <div className="relative md:w-full h-full">
                   <Image
                     src={published.image}
                     fill

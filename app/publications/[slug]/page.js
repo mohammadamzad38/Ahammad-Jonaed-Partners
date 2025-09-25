@@ -18,7 +18,7 @@ export default function page({ params }) {
   return (
     <div className="px-4 md:px-0">
       <section className="container place-items-center ">
-        <div className="relative w-[360px] md:w-[1280px] h-[143px] md:h-[480px]">
+        <div className="relative w-[358px] md:w-[1280px] h-[144px] md:h-[480px]">
           <Image
             src={article.image}
             alt={article.title}
@@ -26,7 +26,7 @@ export default function page({ params }) {
             className="rounded-2xl"
           />
         </div>
-        <div className="mx-8 ">
+        <div>
           <p className="theFont text-2xl md:text-5xl leading-[1.2] text-start tracking-wide mb-2 mt-6 mt">
             {article.title}
           </p>

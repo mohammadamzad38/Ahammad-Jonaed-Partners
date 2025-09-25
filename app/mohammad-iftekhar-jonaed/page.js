@@ -13,7 +13,7 @@ export default function Jonaed() {
             className="rounded-2xl"
           />
         </div>
-        <div className="w-full md:w-[50%] mt-10 px-4 md:px-0">
+        <div className="w-[90%] md:w-[50%] mt-10 px-4 md:px-0 ml-5 md:ml-0">
           <p className="text-2xl md:text-5xl theFont mb-2 text-[#171742]">
             Mohammad Iftekhar Jonaed
           </p>

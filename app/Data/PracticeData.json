@@ -35,7 +35,7 @@
     "icon": "/icon/practice-icon.png",
     "title": "Intellectual Property",
     "image": "/images/service-banner.png",
-    "slug": "Intellectual Property",
+    "slug": "intellectual-property",
     "details": "<section class=\"max-w-6xl mx-auto rounded-2xl mt-10\"><h2 class=\"text-3xl font-bold text-[#1F2937] mb-6\">Understanding the Essence of Law</h2><p class=\"text-gray-700 mb-4\">Law is the backbone of a structured society. It ensures justice, protects rights, and regulates interactions. Legal systems vary worldwide, from civil and common law to customary law.</p><p class=\"text-gray-700 mb-4\">Key areas of law include:</p><ul class=\"grid grid-cols-1 sm:grid-cols-3 gap-4 text-gray-700 mb-6\"><li class=\"bg-[#F3F4F6] p-4 rounded-lg shadow\">Criminal Law: Addresses crimes and punishments.</li><li class=\"bg-[#F3F4F6] p-4 rounded-lg shadow\">Corporate Law: Governs businesses and transactions.</li><li class=\"bg-[#F3F4F6] p-4 rounded-lg shadow\">Family Law: Deals with marriages, divorces, and custody.</li><li class=\"bg-[#F3F4F6] p-4 rounded-lg shadow\">Intellectual Property: Protects inventions and creations.</li><li class=\"bg-[#F3F4F6] p-4 rounded-lg shadow\">Labor Law: Regulates employment and worker rights.</li><li class=\"bg-[#F3F4F6] p-4 rounded-lg shadow\">Environmental Law: Covers regulations to protect nature.</li></ul><p class=\"text-gray-700\">Understanding law empowers citizens, promotes fairness, and strengthens society. Lawyers, judges, and legal experts ensure laws are upheld and interpreted correctly.</p></section>",
     "description": "Providing a wide array of legal services for the establishment and protection of patents, trademarks, and copyrights."
   },
