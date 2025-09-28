@@ -26,7 +26,7 @@ export default function Practice() {
             </div>
             <div className="space-y-3 my-4">
               <p className="font-bold">{item.title}</p>
-              <p className="mb-3 mt-4">{item.description}</p>
+              <p className="mb-3 mt-4 line-clamp-3">{item.description}</p>
             </div>
             <Btn href={`/practice-area/${slugify(item.slug)}`} />
           </div>

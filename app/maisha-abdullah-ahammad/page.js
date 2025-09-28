@@ -17,13 +17,14 @@ export default function MaishaAbdullah() {
           <p className="text-2xl md:text-5xl theFont mb-2 text-[#171742]">
             MAISHA ABDULLAH AHAMMAD
           </p>
-          <p>no Content</p>
           <p className="text-base md:text-2xl font-bold mb-2 mt-6 md:mt-12">
             Professional Qualifications
           </p>
-          <ul className="list-disc ml-5">
+          <ul className="list-disc ml-5 mt-5">
             <li>Barrister-at-Law (Grays’ Inn, UK)</li>
             <li>Advocate, Supreme Court of Bangladesh</li>
+            <li>PgDL& BVC, City University, London, UK</li>
+            <li>LL.B (Hons), Queen Mary, University of London, UK</li>
           </ul>
         </div>
       </div>

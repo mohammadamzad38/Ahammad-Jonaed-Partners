@@ -17,21 +17,15 @@ export default function Jonaed() {
           <p className="text-2xl md:text-5xl theFont mb-2 text-[#171742]">
             Mohammad Iftekhar Jonaed
           </p>
-          <p>
-            Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of
-            the Supreme Court of Bangladesh. He is a founding partner of
-            Ahammad, Jonaed & Partners, bringing extensive legal experience to
-            the firm.
-          </p>
           <p className="text-base md:text-2xl font-bold mb-2 mt-6 md:mt-12">
             Professional Qualifications
           </p>
-          <ul className="list-disc ml-5">
-            <li>Barrister-at-Law, Inner Temple, UK </li>
-            <li>Advocate, Supreme Court of Bangladesh </li>
+          <ul className="list-disc ml-5 mt-5">
+            <li>Barrister-at-Law (Inner Temple, UK)</li>
+            <li>Advocate (Supreme Court of Bangladesh)</li>
             <li>Masters of Law (UEL, UK)</li>
-            <li>PgDL (BVC), City University London, UK</li>
-            <li>LL.B (Hons), University of London, UK </li>
+            <li>PgDL (BVC) (City University London, UK)</li>
+            <li>LL.B (Hons) (University of London, UK)</li>
           </ul>
         </div>
       </div>

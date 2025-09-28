@@ -74,12 +74,14 @@ export default function TrustedBy() {
         Trusted By
       </p>
       <p className="text-base text-center mx-0 md:mx-15 pb-4 pt-4 md:pt-8">
-        We take pride in catering to all our clients on an individual level,
-        providing our niche expertise, personal care, and a full spectrum of
-        legal services. Our well-diversified clientele ranges from some of the
+        W e take pride in catering for all our clients on a very individual
+        level, with our niche expertise, personal care and full spectrum of
+        legal services. Our well diversified clientele ranges from some of the
         largest conglomerates of Bangladesh to entrepreneurial enterprises of
-        the high-tech world, as well as top-end real estate developers,
-        telecommunications operators, and more.
+        high-tech world, from top end real estate developers to eco-savvy
+        resorts, from large telecommunications operators to manufacturer of high
+        street fashion garments, from sea going mother vessels to high flying
+        airliners, to name a few below:
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4">
         {Trusted.map((items, idx) => (

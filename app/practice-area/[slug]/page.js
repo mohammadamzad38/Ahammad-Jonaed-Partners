@@ -19,9 +19,9 @@ export default function page({ params }) {
           className="object-cover rounded-2xl"
         />
       </div>
-      <div className="px-4 lg:px-0">
+      <div className="px-4 lg:px-0 ">
         <div className="container my-4">
-          <h1 className="text-2xl md:text-6xl theFont text-[#C1A246]">
+          <h1 className="text-2xl md:text-6xl theFont text-[#C1A246] max-w-5xl mx-auto">
             {practiceItems.title}
           </h1>
           <div

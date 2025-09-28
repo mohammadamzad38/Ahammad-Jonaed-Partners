@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Practice from "./components/Practice";
 import Team from "./components/Team";
-import TrustedBy from "./components/TrustedBy";
+import TrustedBy from "./components/OurClients";
 import PublicationsCard from "./components/RecentPublication";
 import ContactUs from "./components/ContactUs";
 
@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div>
       <section className="space-y-0 md:space-y-6 px-4 lg:px-0">
-        <div className="max-w-[1200px] mx-auto ">
+        <div className="max-w-[358px] md:max-w-[1200px] h-[170px] md:h-[480px] mx-auto ">
           <video
-            className="rounded-xl shadow-lg w-full"
+            className="rounded-xl mt-2 object-cover shadow-lg w-full h-[170px] md:h-[480px]"
             width="1200"
             height="480"
             autoPlay
@@ -36,7 +36,7 @@ export default function Home() {
       </section>
 
       <main id="about" className="container px-4 lg:px-0">
-        <div  className=" flex flex-col md:flex-row justify-center items-center gap-10 my-4 md:my-27">
+        <div className=" flex flex-col md:flex-row justify-center items-center gap-10 my-4 md:my-27">
           <div className="relative w-[357px] md:w-[470px] h-[496px] md:h-[548px] rounded-2xl shadow-xl">
             <Image
               src={"/images/story-picture.png"}
@@ -82,10 +82,11 @@ export default function Home() {
           <p className="text-4xl md:text-6xl text-center mt-10 md:mt-0 theFont text-[#C1A246]">
             Practice Areas
           </p>
-          <p className="hidden md:block text-base text-center">
-            Ahammad, Jonaed & Partners is a full-service law firm that handles
-            both contentious and non-contentious <br /> matters. They offer an
-            extensive range of specialist legal services across various fields.
+          <p className="hidden max-w-3xl mx-auto place-items-center md:block text-base text-center">
+            We are a full service law firm, specializing in catering to the
+            needs of any corporate body or individual, both in contentious and
+            non-contentious matters. Our extensive range of specialist legal
+            services includes, inter alia, the following areas:
           </p>
           <Practice />
         </div>
