@@ -2,113 +2,84 @@
   {
     "name": "MUHAMMAD HASANUZZAMAN",
     "slug": "muhammad-hasanuzzaman",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
+    "details": "Muhammad Hasanuzzaman is a Barrister-at-Law (Lincoln’s Inn, UK) and an Advocate of the Supreme Court of Bangladesh. He brings extensive legal expertise to his practice, with an academic foundation built on an LLB (Hons) from Northumbria University. His career reflects a strong commitment to excellence in legal advocacy and client service.",
     "graduation": "Barrister – at –Law (Lincoln’s Inn, UK)",
-    "institute": "Advocate, Supreme Court of Bangladesh"
-  },
-  {
-    "name": "SHAKIR UDDIN AHMED BAPPY",
-    "slug": "shakir-uddin-ahmed-bappy",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
-    "graduation": "Barrister-at-Law (Lincoln’s Inn, UK)",
-    "institute": "Advocate, Supreme Court of Bangladesh"
+    "institute": "Advocate, Supreme Court of Bangladesh",
+    "service": "LLB (Hons), Northumbria University"
   },
   {
     "name": "MD. SIRAJUL ALAM BHUIYAN",
     "slug": "md-sirajul-alam-bhuiyan",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
+    "details": "Md. Sirajul Alam Bhuiyan is an Advocate of the Supreme Court of Bangladesh with a distinguished academic background, holding both MSS and LLB degrees from the University of Dhaka. With years of experience, he has established himself as a respected legal professional dedicated to upholding justice.",
     "graduation": "Advocate, Supreme Court of Bangladesh",
     "institute": "MSS, LLB, University of Dhaka"
   },
   {
-    "name": "ANEEQA DAIYAN",
-    "slug": "aneeqa-daiyan",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
-    "graduation": "ADVOCATE, DISTRICT COURT, DHAKA",
-    "institute": "LLB, UNIVERSITY OF SHEFFIELD. UK"
+    "name": "SHAKIR UDDIN AHMED BAPPY",
+    "slug": "shakir-uddin-ahmed-bappy",
+    "details": "Shakir Uddin Ahmed Bappy is a Barrister-at-Law (Lincoln’s Inn, UK) and an Advocate of the Supreme Court of Bangladesh. He holds an LLB (Hons) from the University of London and is recognized for his sharp legal acumen and professional dedication to the field of law.",
+    "graduation": "Barrister-at-Law (Lincoln’s Inn, UK)",
+    "institute": "Advocate, Supreme Court of Bangladesh",
+    "service": "LLB (HONS.), UNIVERSITY OF LONDON"
+  },
+  {
+    "name": "Anaan Haque",
+    "slug": "anaan-haque",
+    "details": "Anaan Haque is an Advocate of the Supreme Court of Bangladesh with an academic background in law, holding an LLB (Hons) from the University of London. With a strong foundation in legal practice, he is committed to advancing client interests with professionalism and integrity.",
+    "graduation": "Advocate, Supreme Court of Bangladesh",
+    "institute": "LLB (Hons), University of London"
   },
   {
     "name": "JAKARIA KHAN",
     "slug": "jakaria-khan",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
+    "details": "Jakaria Khan is an Advocate of the Supreme Court of Bangladesh. He earned his LLB (Hons) from the University of Stamford and has since built his career on sound legal principles and effective advocacy, demonstrating a strong passion for the practice of law.",
     "graduation": "Advocate, Supreme Court of Bangladesh",
     "institute": "LLB (Hons.), University of Stamford"
   },
   {
     "name": "Poonam Parvez",
     "slug": "poonam-parvez",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
+    "details": "Poonam Parvez is a legal professional with international academic credentials. She holds an LL.B (Hons) from Anglia Ruskin University, UK, and an LL.M from Northumbria University, UK. Her diverse legal education equips her with a comprehensive understanding of both local and international legal frameworks.",
     "graduation": "LL.B (Hons),  Anglia Ruskin University, UK",
     "institute": "LL.M, Northumbria University, UK"
   },
   {
-    "name": "Anaan Haque",
-    "slug": "anaan-haque",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
-    "graduation": "Advocate, Supreme Court of Bangladesh",
-    "institute": "LLM, and LLB (honors), University of Dhaka"
-  },
-  {
-    "name": "Anaan Haque",
-    "slug": "adv-anaan-haque",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
+    "name": "TARIQUL ISLAM",
+    "slug": "tariqul-islam",
+    "details": "Tariqul Islam is an Advocate of the District Court, Dhaka, with a solid academic foundation from the University of Dhaka, where he completed both LLB (Hons) and LLM. His work demonstrates a deep commitment to legal service and community justice.",
     "graduation": "Advocate, District Court, Dhaka",
     "institute": "LLM, and LLB (honors), University of Dhaka"
-  },
-  {
-    "name": "MOHAMMAD MIZANUR RAHAMAN",
-    "slug": "mohammad-mizanur-rahaman",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
-    "graduation": "Advocate, District Court, Dhaka",
-    "institute": "LLB, and LL.B. (Hon’s), University of Rajshahi"
   },
   {
     "name": "MD. ZAFUR MIAH",
     "slug": "md-zafur-miah",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
+    "details": "Md. Zafur Miah is an Advocate of the District Court, Dhaka. He earned his LLB and LLM from Daffodil International University. His practice reflects diligence and a steady pursuit of justice in district-level litigation and legal affairs.",
     "graduation": "Advocate, District Court, Dhaka",
     "institute": "LLM, LLB, Daffodil International University"
   },
   {
-    "name": "AFRINA NAZNIN AIRIN",
-    "slug": "afrina-naznin-airin",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
-    "graduation": "AFRINA NAZNIN AIRIN",
-    "institute": "LLB (HONS), UNIVERSITY OF LONDON, UK"
-  },
-  {
-    "name": "AYISHA FARISHTA ASHRAF",
-    "slug": "ayisha-farishta-ashraf",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
-    "graduation": "LLB (HONS), UNIVERSITY OF LONDON",
-    "institute": ""
-  },
-  {
-    "name": "MOHAMMAD FOISAL AHSAN",
-    "slug": "mohammad-foisal-ahsan",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
-    "graduation": "Barrister - at- Law (Lincoln’s Inn)",
-    "institute": "Advocate, Supreme Court of Bangladesh"
-  },
-  {
     "name": "Tanjila Kabir",
     "slug": "tanjila-kabir",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
+    "details": "Tanjila Kabir is a Barrister-at-Law and legal professional with international qualifications. She completed the BPTC at the University of the West of England, UK, strengthening her skills in advocacy and litigation. She is committed to excellence in legal service.",
     "graduation": "Barrister-at-Law",
     "institute": "BPTC, University of West England, UK"
   },
   {
     "name": "Lamisha Shehrin Sikder",
     "slug": "lamisha-shehrin-sikder",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
-    "graduation": "LL.B (Hons),  University of London, UK",
-    "institute": ""
+    "details": "Lamisha Shehrin Sikder is a legal practitioner holding an LL.B (Hons) from the University of London, UK. With her academic background and dedication, she continues to grow her career in the legal profession, contributing her expertise to diverse legal matters.",
+    "graduation": "LL.B (Hons),  University of London, UK"
   },
   {
-    "name": "MOHAMMAD FOISAL AHSAN",
-    "slug": "mohammad-foisal-ahsan",
-    "details": "Mohammad Iftekhar Jonaed is a Barrister-at-Law and an Advocate of the Supreme Court of Bangladesh. He is a founding partner of Ahammad, Jonaed & Partners, bringing extensive legal experience to the firm.",
-    "graduation": "Barrister - at- Law (Lincoln’s Inn)",
-    "institute": "Advocate, Supreme Court of Bangladesh"
+    "name": "Priom",
+    "slug": "priom"
+  },
+  {
+    "name": "RUMAIYA HUQ",
+    "slug": "rumaiya-haq",
+    "details": "Rumaiya Huq is a Barrister-at-Law and a dynamic legal professional with international exposure. She earned her LLB (Hons) from the University of London and pursued further legal training through the PgDL at City Law School, City University, London. Her strong academic background complements her practice as an Advocate.",
+    "graduation": "Barrister - at- Law",
+    "institute": "LLB (Hons), University of London",
+    "service": "PgDL, City Law School, City University, London, UK"
   }
 ]

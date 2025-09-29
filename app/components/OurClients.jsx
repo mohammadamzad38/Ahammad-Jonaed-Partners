@@ -1,70 +1,45 @@
 import Image from "next/image";
-import ae from "../../public/icon/ae.png";
+
 import airtel from "../../public/icon/airtel.png";
-import aktel from "../../public/icon/aktel.png";
-import aml from "../../public/icon/aml.png";
 import amtob from "../../public/icon/amtob.png";
-import ananta from "../../public/icon/ananta.png";
-import lamp from "../../public/icon/bangladesh-lamp.png";
-import bay from "../../public/icon/bay.png";
 import chaldal from "../../public/icon/chaldal.png";
-import click from "../../public/icon/click-bd.png";
-import cri from "../../public/icon/cri.png";
-import crystal from "../../public/icon/crystal-group.png";
-import delco from "../../public/icon/delco.png";
-import generation from "../../public/icon/e-generation.png";
-import hand from "../../public/icon/hand.png";
-import hungrinaki from "../../public/icon/hungrinaki.png";
-import icon from "../../public/icon/icon-1.png";
 import islami from "../../public/icon/islami-bank.png";
-import knit from "../../public/icon/knit.png";
-import malido from "../../public/icon/malido.png";
-import mbdatra from "../../public/icon/mbdatra.png";
-import mutual from "../../public/icon/mutual.png";
-import mys from "../../public/icon/mys.png";
-import nrb from "../../public/icon/nrb-bank.png";
 import pathao from "../../public/icon/pathao.png";
-import pragati from "../../public/icon/pragati-life.png";
 import priyo from "../../public/icon/priyo.png";
-import ts from "../../public/icon/t&s.png";
 import telenor from "../../public/icon/telenor.png";
-import logistics from "../../public/icon/tg-logistics.png";
 import transcom from "../../public/icon/transcom.png";
-import vanguard from "../../public/icon/vanguard.png";
+import grameen from "../../public/icon/Grameenphone-Logo.png";
+import robi from "../../public/icon/robi-logo.png";
+import batLogo from "../../public/icon/bat-bangladesh-logo.png";
+import saudiLogo from "../../public/icon/Saudia-air.png";
+import gulfAir from "../../public/icon/Gulf-Air.png";
+import kuwit from "../../public/icon/Kuwait_Air.png";
+import mercantile from "../../public/icon/mercantile-bank.jpg";
+import alarafah from "../../public/icon/al-arafah-islami.jpg";
+import bureau from "../../public/icon/Bureau_Veritas.png";
+import nagad from "../../public/icon/nagaf-logo.jpg";
+import fasFinance from "../../public/icon/fas-logo.png";
 
 const Trusted = [
   { image: amtob },
-  { image: icon },
-  { image: aktel },
-  { image: transcom },
-  { image: lamp },
-  { image: ananta },
-  { image: aml },
-  { image: pragati },
-  { image: cri },
-  { image: crystal },
+  { image: telenor },
+  { image: grameen },
+  { image: robi },
+  { image: airtel },
+  { image: batLogo },
+  { image: saudiLogo },
+  { image: gulfAir },
+  { image: kuwit },
   { image: islami },
-  { image: knit },
-  { image: hand },
-  { image: mys },
-  { image: vanguard },
-  { image: click },
-  { image: ae },
+  { image: mercantile },
+  { image: alarafah },
+  { image: fasFinance },
+  { image: bureau },
+  { image: nagad },
   { image: pathao },
   { image: priyo },
-  { image: telenor },
-  { image: malido },
-  { image: mbdatra },
-  { image: airtel },
-  { image: delco },
   { image: chaldal },
-  { image: nrb },
-  { image: logistics },
-  { image: mutual },
-  { image: ts },
-  { image: bay },
-  { image: hungrinaki },
-  { image: generation },
+  { image: transcom },
 ];
 
 export default function TrustedBy() {
@@ -90,7 +65,7 @@ export default function TrustedBy() {
               <Image
                 src={items.image}
                 alt="Trusted Partners Logo"
-                className="object-contain"
+                className="object-contain p-4"
               />
             </div>
           </div>
