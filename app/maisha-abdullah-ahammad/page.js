@@ -1,11 +1,10 @@
 import Image from "next/image";
-import AuthPublication from "../components/AuthPublication";
 
 export default function MaishaAbdullah() {
   return (
-    <div className="container">
+    <div className="container py-15">
       <div className="flex flex-col md:flex-row gap-8 items-center">
-        <div className="relative w-[358px] md:w-[480px] mt-6 h-[358px] md:h-[480px]">
+        <div className="relative w-[358px] md:w-[480px]  h-[358px] md:h-[480px]">
           <Image
             src={"/images/maisha-ahammad.png"}
             alt="Iftekhar Jonaed"
@@ -28,7 +27,6 @@ export default function MaishaAbdullah() {
           </ul>
         </div>
       </div>
-      <AuthPublication />
     </div>
   );
 }

@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-center items-center md:justify-between">
           <a href="/">
             <div className="relative w-[358px] md:w-[546px] mb-10 md:mb-0 h-[236px] md:h-[360px]">
-              <Image src={logo} fill alt="Logo" className="object-cover" />
+              <Image src={logo} fill alt="Logo" className="object-contain" />
             </div>
           </a>
           <div className="w-full md:w-2/5 text-center md:text-start text-white space-y-5">

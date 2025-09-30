@@ -71,6 +71,7 @@ export default function TrustedBy() {
           </div>
         ))}
       </div>
+      <div id="publications"></div>
     </div>
   );
 }

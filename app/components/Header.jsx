@@ -9,11 +9,11 @@ import { IoClose } from "react-icons/io5";
 
 const navLinks = [
   { category: "Home", url: "/" },
-  { category: "About Us", url: "#about" },
-  { category: "Practice Areas", url: "#practice" },
-  { category: "Our Team", url: "#team" },
-  { category: "Our Clients", url: "#clients" },
-  { category: "Recent Publications", url: "#publications" },
+  { category: "About Us", url: "/#about" },
+  { category: "Practice Areas", url: "/#practice" },
+  { category: "Our Team", url: "/#team" },
+  { category: "Our Clients", url: "/#clients" },
+  { category: "Recent Publications", url: "/#publications" },
 ];
 
 export default function Header() {

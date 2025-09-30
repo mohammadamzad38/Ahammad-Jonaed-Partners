@@ -29,7 +29,7 @@ export default function AuthPublication() {
                   <p className="theFont text-2xl mt-6">{published.title}</p>
                 </div>
                 <div className="absolute bottom-4 left-4">
-                  <Btn href={`/publications/${Slugify(published.title)}`} />
+                  <Btn href={`/publications/${Slugify(published.slug)}`} />
                 </div>
               </div>
             </div>

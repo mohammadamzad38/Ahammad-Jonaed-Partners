@@ -21,7 +21,7 @@ export default function PublicationCard() {
   }, [emblaApi]);
 
   return (
-    <div id="publications" className="my-12 md:my-27 place-items-center">
+    <div  className="my-12 md:my-27 place-items-center">
       <p className="text-4xl md:text-6xl theFont text-[#C1A246]">Recent Publications</p>
       <div className=" w-full place-items-end md:place-items-center">
         <div className="flex gap-2 mt-8">
@@ -61,7 +61,7 @@ export default function PublicationCard() {
                     <p className="theFont text-2xl mt-6">{published.title}</p>
                   </div>
                   <div className="absolute bottom-4 left-4">
-                    <Btn href={`/publications/${Slugify(published.title)}`} />
+                    <Btn href={`/publications/${Slugify(published.slug)}`} />
                   </div>
                 </div>
               </div>
