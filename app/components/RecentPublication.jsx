@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/navigation";
 import { GrFormNextLink } from "react-icons/gr";
 import { GrFormPreviousLink } from "react-icons/gr";
 import publications from "../Data/Publications.json";
@@ -10,6 +11,8 @@ import Btn from "./Btn";
 import Slugify from "./Slugify";
 
 export default function PublicationCard() {
+  const router = useRouter();
+
   const [emblaRef, emblaApi] = useEmblaCarousel({ align: "start", loop: true });
 
   const scrollPrev = useCallback(() => {
@@ -21,8 +24,10 @@ export default function PublicationCard() {
   }, [emblaApi]);
 
   return (
-    <div  className="my-12 md:my-27 place-items-center">
-      <p className="text-4xl md:text-6xl theFont text-[#C1A246]">Recent Publications</p>
+    <div className="my-12 md:my-27 place-items-center">
+      <p className="text-4xl md:text-6xl theFont text-[#C1A246]">
+        Recent Publications
+      </p>
       <div className=" w-full place-items-end md:place-items-center">
         <div className="flex gap-2 mt-8">
           <button
@@ -43,8 +48,11 @@ export default function PublicationCard() {
           <div className="flex gap-4 mt-4">
             {publications.map((published, idx) => (
               <div
+                onClick={() =>
+                  router.push(`/publications/${Slugify(published.slug)}`)
+                }
                 key={idx}
-                className="flex-[0_0_100%] md:flex-[0_0_28%] w-[340px] h-[412px] rounded-2xl mx-2 text-white shadow"
+                className="flex-[0_0_100%] md:flex-[0_0_28%] w-[340px] h-[412px] rounded-2xl mx-2 text-white shadow cursor-pointer"
               >
                 <div className="relative md:w-full h-full">
                   <Image

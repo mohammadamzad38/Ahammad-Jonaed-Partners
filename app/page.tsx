@@ -42,7 +42,7 @@ export default function Home() {
               src={"/images/story-picture.png"}
               fill
               alt="Story Image"
-              className="p-4 rounded-2xl bg-white"
+              className="p-4 rounded-2xl bg-white object-cover"
             />
           </div>
           <div className="w-full md:w-3/5 space-y-4 md:space-y-16 mx-0 md:mx-4">
