@@ -1,4 +1,4 @@
-"use client";
+
 
 import Image from "next/image";
 import React from "react";
@@ -16,49 +16,39 @@ export default function Footer() {
             </div>
           </a>
           <div className="w-full md:w-2/5 text-center md:text-start text-white space-y-5">
-            <p className="text-xl font bold theFont">
-              AHAMMAD, JONAED & PARTNERS
+            <p className="font-SemiBold leading-[28.8px] tracking-wide px-2 md:px-0">
+              <span className="font-bold">Law Offices:</span> B-1 (1st Floor),
+              Plot#11/A-1, Road#41, Gulshan-2, Dhaka-1212, Bangladesh
             </p>
-            <p>
-              <span className="font-bold">Law Offices:</span>Suite # B1, Plot-
-              11/A-1, Road- 41, Gulshan-2, Dhaka-1212
-            </p>
-            <div className="flex flex-col">
-              <a className="text-blue-500 hover:text-blue-400" target="_blank" href="mailto:info@ahammadjonaed.com">
-                <span className="font-bold text-white">Email:  </span> 
+            <div className="flex flex-col leading-[28.8px] tracking-wide">
+              <a
+                className=" hover:text-blue-400"
+                target="_blank"
+                href="mailto:info@ahammadjonaed.com"
+              >
+                <span className="font-bold text-white">Email: </span>
                 info@ahammad-jonaed.com
               </a>
-              <a className="text-blue-500 hover:text-blue-400" target="_blank" href="https://ahammad-jonaed.com">
-                <span className="font-bold text-white">URL:  </span> 
+              <a
+                className=" hover:text-blue-400"
+                target="_blank"
+                href="https://ahammad-jonaed.com"
+              >
+                <span className="font-bold text-white">Website: </span>
                 www.ahammad-jonaed.com
               </a>
             </div>
-            <p>
-              <span className="font-bold">Court Chambers:</span> Room 5029,
-              Supreme Court Bar Association (Annex Building), Ramna, Dhaka 1000
-            </p>
-            <p>
-              <span className="font-bold">Tel: </span>
-              <a
-                className="text-blue-500 hover:text-blue-400"
-                target="_blank"
-                href="tel:+88028835625"
-              >
-                (+88) 02 883 5625
-              </a>
-              <a
-                className="text-blue-500 hover:text-blue-400"
-                target="_blank"
-                href="tel:+88028835297"
-              >
-                <span className="font-bold ml-4 text-white">Fax:</span> (+88) 02
-                883 5297
-              </a>
+            <p className="leading-[28.8px] tracking-wide font-semiBold px-2 md:px-0">
+              <span className="font-bold">Court Chambers:</span> Room#5029
+              (Annex-4th Floor), Supreme Court Bar Association, Ramna, Dhaka,
+              Bangladesh
             </p>
           </div>
         </div>
-        <FooterNav />
-        <div className="flex flex-col md:flex-row gap-2 text-white my-5">
+        <div className="mb-12 md:mb-7">
+          <FooterNav />
+        </div>
+        <div className="flex flex-col md:flex-row gap-5 text-white text-sm mb-5">
           <div className="flex gap-2">
             <p className="">Designed and Developed By</p>
             <a
@@ -69,7 +59,11 @@ export default function Footer() {
               MRZ Tech
             </a>
           </div>
-          <p>|| Copyright: © 2025. All Rights Reserved</p>
+
+          <p className="flex gap-2">
+            <span className="hidden md:block">|</span> Copyright: © 2025. All
+            Rights Reserved
+          </p>
         </div>
       </footer>
     </div>
