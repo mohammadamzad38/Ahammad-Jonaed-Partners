@@ -4,12 +4,12 @@ export default function MaishaAbdullah() {
   return (
     <div className="container py-15">
       <div className="flex flex-col md:flex-row gap-8 items-center">
-        <div className="relative w-[358px] md:w-[480px]  h-[358px] md:h-[480px]">
+        <div className="relative w-[358px] md:w-[480px] h-[358px] md:h-[520px]">
           <Image
             src={"/images/maisha-ahammad.png"}
             alt="Iftekhar Jonaed"
             fill
-            className="rounded-2xl"
+            className="rounded-2xl object-cover"
           />
         </div>
         <div className="-full md:w-[50%] mt-10 px-4 md:px-0">

@@ -65,7 +65,7 @@ export default function TrustedBy() {
               <Image
                 src={items.image}
                 alt="Trusted Partners Logo"
-                className="object-contain p-4"
+                className="p-4 h-full w-max"
               />
             </div>
           </div>
