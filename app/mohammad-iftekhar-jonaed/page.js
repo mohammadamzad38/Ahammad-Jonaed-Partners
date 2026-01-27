@@ -5,12 +5,12 @@ export default function Jonaed() {
   return (
     <div className="container">
       <div className="flex flex-col md:flex-row gap-8 items-center">
-        <div className="relative w-[358px] md:w-[480px] mt-6 h-[358px] md:h-[480px]">
+        <div className="relative w-[358px] md:w-[480px] h-[358px] md:h-[520px]">
           <Image
             src={"/images/jonaed-image.png"}
             alt="Iftekhar Jonaed"
             fill
-            className="rounded-2xl"
+            className="rounded-2xl object-cover"
           />
         </div>
         <div className="w-[90%] md:w-[50%] mt-10 px-4 md:px-0 ml-5 md:ml-0">
