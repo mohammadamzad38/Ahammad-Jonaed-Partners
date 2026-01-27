@@ -36,13 +36,7 @@
     "graduation": "Advocate, Supreme Court of Bangladesh",
     "institute": "LLB (Hons.), University of Stamford"
   },
-  {
-    "name": "Poonam Parvez",
-    "slug": "poonam-parvez",
-    "details": "Poonam Parvez is a legal professional with international academic credentials. She holds an LL.B (Hons) from Anglia Ruskin University, UK, and an LL.M from Northumbria University, UK. Her diverse legal education equips her with a comprehensive understanding of both local and international legal frameworks.",
-    "graduation": "LL.B (Hons),  Anglia Ruskin University, UK",
-    "institute": "LL.M, Northumbria University, UK"
-  },
+ 
   {
     "name": "TARIQUL ISLAM",
     "slug": "tariqul-islam",
@@ -81,5 +75,13 @@
     "graduation": "Barrister - at- Law",
     "institute": "LLB (Hons), University of London",
     "service": "PgDL, City Law School, City University, London, UK"
+  },
+  {
+    "name": "Sadia Afroz Meem",
+    "slug": "sadia-afroz-meem",
+    "details": "Sadia Afroz Meem is a legal professional with international academic credentials, holding an LL.B (Hons) from the University of London, UK. She is recognized for her sharp legal acumen and strong professional dedication to the practice of law. Her diverse legal education provides her with a comprehensive understanding of both local and international legal frameworks, enabling her to approach legal matters with analytical depth and global perspective.", 
+    "graduation": "LLB (Hons), University of London, UK",
+    "institute": "P.G.Dip, University of the West of England, UK",
+    "service": "Barrister-at-Law, of Lincoln’s Inn || Advocate, District & Session Judges' Court"
   }
 ]
